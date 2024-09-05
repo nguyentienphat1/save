@@ -4,19 +4,17 @@ import { globaStyles } from '../styles/globaStyles';
 
 
 interface Props {
-    children : ReactNode;
-    onPress? : () => void;
-    styles?: StyleProp<ViewStyle>
+    children ?: ReactNode;
 }
 
 const Row = (Props : Props) => {
-    const {children, onPress,styles} = Props;
+    const {children} = Props;
 
-    const localStyles = [globaStyles.row, globaStyles.center , {} , styles] 
+     
   return  (
-    
-
-    <View style = {localStyles}>{children} </View>
+    <View style={[globaStyles.row ]}>
+      {children}
+    </View>
   )
 }
 
