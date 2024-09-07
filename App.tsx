@@ -1,5 +1,5 @@
 import { setStatusBarBackgroundColor, StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { ActivityIndicator, StyleSheet, Text, View } from 'react-native';
 import ScreensHome from './src/Screens/Home/ScreensHome';
 import { Colors } from 'react-native/Libraries/NewAppScreen';
 import {
@@ -27,7 +27,7 @@ export default function App() {
   })
 
   if(!fontLoaded) {
-    return <></>
+    return <ActivityIndicator/>
   }
   else{
     return (

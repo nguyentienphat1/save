@@ -18,9 +18,9 @@ export const globaStyles = StyleSheet.create({
     },
 
     section : {
-        marginHorizontal: 30,
+        marginHorizontal: 16,
         marginBottom : 20,
-        paddingVertical :16,
+       
     },
 
     row :{
@@ -37,6 +37,25 @@ export const globaStyles = StyleSheet.create({
         width : 50,
         height : 50,
         borderRadius : 50,
+    },
+
+    button :{
+        borderRadius: 8,
+        maxHeight: 40,
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: 40,
+        minWidth:40,
+    },
+    input :{
+        borderRadius:8,
+        maxHeight: 40,
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: 40,
+        minWidth:40,
+        backgroundColor: '#00000040',
+        paddingHorizontal:8,
     },
 
 }); 
