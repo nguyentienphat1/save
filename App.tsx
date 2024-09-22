@@ -17,6 +17,7 @@ import {
   // Roboto_900Black,
   // Roboto_900Black_Italic,
 } from '@expo-google-fonts/roboto';
+import { Login } from './src/Screens';
 
 export default function App() {
 
@@ -33,7 +34,7 @@ export default function App() {
     return (
       <>
         <StatusBar hidden />
-      <ScreensHome/>
+      <ScreensHome />
       </>
     );
   }

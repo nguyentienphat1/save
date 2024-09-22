@@ -17,7 +17,9 @@ const Buttoncomponent = (props : props) => {
     const {style,text,icon,onpress,color}= props;
 
   return (
-    <TouchableOpacity style ={[globaStyles.button,{
+    <TouchableOpacity 
+    onPress={onpress}
+    style ={[globaStyles.button,{
       backgroundColor : color ?? Colors.blue
     },style]}>
       {icon && icon}

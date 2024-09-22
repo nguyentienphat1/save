@@ -1,0 +1,2 @@
+const props, {
+    user: UserModel };

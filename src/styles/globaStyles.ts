@@ -57,5 +57,15 @@ export const globaStyles = StyleSheet.create({
         backgroundColor: '#00000040',
         paddingHorizontal:8,
     },
+    shadow :{
+        shadowColor: 'rgba(0,0,0,0.9)',
+        shadowOffset : {
+            width:0,
+            height:12,
+        },
+        shadowRadius:16.0,
+        shadowOpacity:0.58,
+        elevation:12,
+    },
 
 }); 
